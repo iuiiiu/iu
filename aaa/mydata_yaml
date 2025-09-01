@@ -1,0 +1,10 @@
+# 1. 训练集和验证集图片路径（相对于YOLOv5根目录）
+train: ./aaa/images/train/  # 训练图片目录（你的图片存放路径）
+val: ./aaa/images/val/      # 验证图片目录（建议至少留10%图片作为验证集）
+
+# 2. 类别配置（必须与 my.labels.txt 严格对应！）
+nc: 4  # 类别总数（你的 labels.txt 有4行，所以 nc=4）
+names: ["spoon", "chopsticks", "plate", "bowl"]  # 类别名称列表（顺序必须与 labels.txt 一致！）
+
+# 3. 可选配置（默认开启，加速训练）
+cache: true  # 缓存图片信息（对应你看到的 train.cache 文件）

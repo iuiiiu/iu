@@ -1,0 +1,5 @@
+spoon
+chopsticks
+plate
+bowl
+unknown
